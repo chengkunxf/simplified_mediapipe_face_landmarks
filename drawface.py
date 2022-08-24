@@ -6,7 +6,7 @@ import cv2
 from mpFaceSimplified import mpFace
 import numpy as np
 
-img = cv2.imread("f_hair_1.jpg")
+img = cv2.imread("images/f_hair_1.jpg")
 cv2.imshow('img', img)
 
 size = img.shape
